@@ -1,9 +1,10 @@
+
 function Card(){
 return(
   <div className="card">
-    <img src="./assets/react.svg"></img>
+    <img src="https://placehold.co/150" className="cardImg"></img>
     <h2>Eric</h2>
-    <p>I am a university student studying in MMU</p>
+    <p className="cardText">I am a university student studying in MMU</p>
   </div>
 )
 
