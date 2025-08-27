@@ -4,3 +4,4 @@ This repo is private for my react learning experience thru the video from BroCod
 
 Link: https://www.youtube.com/watch?v=CgkZ7MvWUAA
 
+Current Progress: 52:50 (5. conditional rendering)
