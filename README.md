@@ -4,4 +4,4 @@ This repo is private for my react learning experience thru the video from BroCod
 
 Link: https://www.youtube.com/watch?v=CgkZ7MvWUAA
 
-Current Progress:1:20.37 (6. Renderlist) 
+Current Progress:1.29.45 (7. Click Event) 
