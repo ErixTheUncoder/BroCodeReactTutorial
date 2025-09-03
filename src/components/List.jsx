@@ -1,8 +1,11 @@
-function List(props){
+import PropTypes from "prop-types";
 
-  const itemList = props.items;
-  const category = props.category;
+function List(props){
   
+  const itemList = props.items|| [];
+  const category = props.category|| "Uncategorized";
+
+  if(itemList&&category){
   itemList.sort((a,b) => a.name.localeCompare(b.name));// ALPHABETICAL
   // fruits.sort((a,b) => b.name.localeCompare(a.name));// REVERSE ALPHABETICAL
   
@@ -11,12 +14,20 @@ function List(props){
                                             {item.name}: &nbsp; 
                                             <b>{item.calories}</b>
                                           </li>);
+   return(
+      <>
+       <h3 className="list-category">{category}</h3>
+        <ol className="list-listItems">{listItems}</ol>
+      </>);
+  }
+  return null;
+}
 
-  return(
-    <>
-    <h3 className="list-category">{category}</h3>
-    <ol className="list-listItems">{listItems}</ol>
-    </>);
+List.PropTypes = {
+  category: PropTypes.string,
+  items: PropTypes.arrayOf(PropTypes.shape({id:PropTypes.number,
+                                            name:PropTypes.string,
+                                            calories:PropTypes.number}))
 }
 
 export default List
