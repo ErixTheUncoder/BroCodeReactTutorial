@@ -4,4 +4,4 @@ This repo is private for my react learning experience thru the video from BroCod
 
 Link: https://www.youtube.com/watch?v=CgkZ7MvWUAA
 
-Current Progress:1.35.47 (7. Click Event) 
+Current Progress:1:42:17 (8. useState() hook) 
