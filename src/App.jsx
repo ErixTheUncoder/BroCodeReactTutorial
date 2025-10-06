@@ -7,6 +7,9 @@ import Student from "./components/Student";
 import UserGreeting from "./components/UserGreeting";
 import List  from "./components/List";
 import ImgButton from "./components/Button/imgButton";
+import ReactHook from "./components/reactHook";
+import Counter from "./components/Counter";
+
 
 function App() {
   const fruits = [{id:0,name:"apple",calories: 95},
@@ -41,6 +44,8 @@ function App() {
       {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
       {vegetables.length >0 ? <List items={vegetables} category="Vegetables"/> : null}
       <ImgButton />
+      <ReactHook />
+      <Counter />
       
       <Footer />
     </>
