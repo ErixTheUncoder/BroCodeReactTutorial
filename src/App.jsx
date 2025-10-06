@@ -9,6 +9,7 @@ import List  from "./components/List";
 import ImgButton from "./components/Button/imgButton";
 import ReactHook from "./components/reactHook";
 import Counter from "./components/Counter";
+import OnChangeHook from "./components/OnChangeHook";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
       <ImgButton />
       <ReactHook />
       <Counter />
+      <OnChangeHook />
       
       <Footer />
     </>
