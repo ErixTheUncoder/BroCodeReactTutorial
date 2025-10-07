@@ -10,6 +10,7 @@ import ImgButton from "./components/Button/imgButton";
 import ReactHook from "./components/reactHook";
 import Counter from "./components/Counter";
 import OnChangeHook from "./components/OnChangeHook";
+import ColorPicker from "./ColorPicker";
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
       <ReactHook />
       <Counter />
       <OnChangeHook />
+      <ColorPicker />
       
       <Footer />
     </>
