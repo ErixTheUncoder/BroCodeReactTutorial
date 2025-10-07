@@ -4,4 +4,4 @@ This repo is private for my react learning experience thru the video from BroCod
 
 Link: https://www.youtube.com/watch?v=CgkZ7MvWUAA
 
-Current Progress:2:07:40 (9. onChange Event Handler) 
+Current Progress:2:13:19 (10. Color picker app)
