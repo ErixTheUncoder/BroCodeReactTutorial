@@ -11,6 +11,7 @@ import ReactHook from "./components/reactHook";
 import Counter from "./components/Counter";
 import OnChangeHook from "./components/OnChangeHook";
 import ColorPicker from "./ColorPicker";
+import UpdaterFunc from "./components/UpdaterFunc";
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
       <Counter />
       <OnChangeHook />
       <ColorPicker />
+      <UpdaterFunc />
       
       <Footer />
     </>
