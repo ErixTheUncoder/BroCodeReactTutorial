@@ -6,4 +6,4 @@ Link: https://www.youtube.com/watch?v=CgkZ7MvWUAA
 
 Current Progress:
 
-2:23:42 (11.updater functions)
+2:36:55 (12.update OBJECTS in the state)
